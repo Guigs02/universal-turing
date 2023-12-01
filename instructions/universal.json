@@ -1,0 +1,2138 @@
+{
+  "Q1": {
+    "0": {
+      "WRITE": "0",
+      "NEXTSTATE": "Q2",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q2": {
+    " ": {
+      "WRITE": "#",
+      "NEXTSTATE": "Q3",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q3": {
+    "0": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q3",
+      "MOVE": "RIGHT"
+    },
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q4",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q4": {
+    "0": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q4",
+      "MOVE": "RIGHT"
+    },
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q5",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q5": {
+    "0": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q5",
+      "MOVE": "RIGHT"
+    },
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q6",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q6": {
+    "0": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q6",
+      "MOVE": "RIGHT"
+    },
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q7",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q7": {
+    "0": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q7",
+      "MOVE": "RIGHT"
+    },
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q8",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q8": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q83",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q9": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q9",
+      "MOVE": "LEFT"
+    },
+    "b": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q10",
+      "MOVE": "LEFT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q9",
+      "MOVE": "LEFT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q9",
+      "MOVE": "LEFT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q9",
+      "MOVE": "LEFT"
+    },
+    "#": {
+      "WRITE": "#",
+      "NEXTSTATE": "Q12",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q9",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q10": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q9",
+      "MOVE": "LEFT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q11",
+      "MOVE": "RIGHT"
+    },
+    "#": {
+      "WRITE": "#",
+      "NEXTSTATE": "Q9",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q11": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q9",
+      "MOVE": "LEFT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q11",
+      "MOVE": "LEFT"
+    },
+    "a": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q11",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q12": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q13",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q12",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q12",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q12",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q12",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q12",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q13": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q14",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q12",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q12",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q12",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q12",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q14": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q15",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q12",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q12",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q12",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q12",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q12",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q15": {
+    "0": {
+      "WRITE": "x",
+      "NEXTSTATE": "Q16",
+      "MOVE": "LEFT"
+    },
+    "1": {
+      "WRITE": "x",
+      "NEXTSTATE": "Q23",
+      "MOVE": "LEFT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q15",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q16": {
+    "0": {
+      "WRITE": "0",
+      "NEXTSTATE": "Q16",
+      "MOVE": "LEFT"
+    },
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q16",
+      "MOVE": "LEFT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q16",
+      "MOVE": "LEFT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q16",
+      "MOVE": "LEFT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q16",
+      "MOVE": "LEFT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q16",
+      "MOVE": "LEFT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q16",
+      "MOVE": "LEFT"
+    },
+    "#": {
+      "WRITE": "#",
+      "NEXTSTATE": "Q17",
+      "MOVE": "RIGHT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q16",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q17": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q20",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q18",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q17",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q17",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q17",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q17",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q18": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q18",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q18",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q19",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q19": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q39",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q17",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q20": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q21",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q17",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q17",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q17",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q21": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q22",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q17",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q18",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q22": {
+    "0": {
+      "WRITE": "0",
+      "NEXTSTATE": "Q22",
+      "MOVE": "RIGHT"
+    },
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q22",
+      "MOVE": "RIGHT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q22",
+      "MOVE": "RIGHT"
+    },
+    "x": {
+      "WRITE": "0",
+      "NEXTSTATE": "Q78",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q23": {
+    "0": {
+      "WRITE": "0",
+      "NEXTSTATE": "Q23",
+      "MOVE": "LEFT"
+    },
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q23",
+      "MOVE": "LEFT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q23",
+      "MOVE": "LEFT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q23",
+      "MOVE": "LEFT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q23",
+      "MOVE": "LEFT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q23",
+      "MOVE": "LEFT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q23",
+      "MOVE": "LEFT"
+    },
+    "#": {
+      "WRITE": "#",
+      "NEXTSTATE": "Q24",
+      "MOVE": "RIGHT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q23",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q24": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q25",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q27",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q24",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q24",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q24",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q24",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q25": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q26",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q24",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q24",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q24",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q26": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q30",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q24",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q27",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q27": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q27",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q27",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q28",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q28": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q24",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q29",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q29": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q39",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q24",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q30": {
+    "0": {
+      "WRITE": "0",
+      "NEXTSTATE": "Q30",
+      "MOVE": "RIGHT"
+    },
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q30",
+      "MOVE": "RIGHT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q30",
+      "MOVE": "RIGHT"
+    },
+    "x": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q78",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q31": {
+    "0": {
+      "WRITE": "0",
+      "NEXTSTATE": "Q31",
+      "MOVE": "LEFT"
+    },
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q31",
+      "MOVE": "LEFT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q31",
+      "MOVE": "LEFT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q31",
+      "MOVE": "LEFT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q31",
+      "MOVE": "LEFT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q31",
+      "MOVE": "LEFT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q31",
+      "MOVE": "LEFT"
+    },
+    "#": {
+      "WRITE": "#",
+      "NEXTSTATE": "Q32",
+      "MOVE": "RIGHT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q31",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q32": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q36",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q33",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q32",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q32",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q32",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q32",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q33": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q33",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q33",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q34",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q34": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q32",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q35",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q35": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q32",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q84",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q36": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q37",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q32",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q32",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q32",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q37": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q38",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q32",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q33",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q38": {
+    "0": {
+      "WRITE": "0",
+      "NEXTSTATE": "Q38",
+      "MOVE": "RIGHT"
+    },
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q38",
+      "MOVE": "RIGHT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q38",
+      "MOVE": "RIGHT"
+    },
+    "x": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q78",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q39": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q40",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "C",
+      "NEXTSTATE": "Q39",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q40": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q41",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "D",
+      "NEXTSTATE": "Q40",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q41": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q86",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "E",
+      "NEXTSTATE": "Q41",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q42": {
+    "0": {
+      "WRITE": "0",
+      "NEXTSTATE": "Q42",
+      "MOVE": "LEFT"
+    },
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q42",
+      "MOVE": "LEFT"
+    },
+    "a": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q42",
+      "MOVE": "LEFT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q42",
+      "MOVE": "LEFT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q42",
+      "MOVE": "LEFT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q42",
+      "MOVE": "LEFT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q42",
+      "MOVE": "LEFT"
+    },
+    "#": {
+      "WRITE": "#",
+      "NEXTSTATE": "Q43",
+      "MOVE": "RIGHT"
+    },
+    "D": {
+      "WRITE": "D",
+      "NEXTSTATE": "Q42",
+      "MOVE": "LEFT"
+    },
+    "C": {
+      "WRITE": "C",
+      "NEXTSTATE": "Q42",
+      "MOVE": "LEFT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q42",
+      "MOVE": "LEFT"
+    },
+    "E": {
+      "WRITE": "E",
+      "NEXTSTATE": "Q42",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q43": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q43",
+      "MOVE": "RIGHT"
+    },
+    "C": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q44",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q43",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q43",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q43",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q43",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q43",
+      "MOVE": "RIGHT"
+    },
+    "D": {
+      "WRITE": "D",
+      "NEXTSTATE": "Q43",
+      "MOVE": "RIGHT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q43",
+      "MOVE": "RIGHT"
+    },
+    "E": {
+      "WRITE": "E",
+      "NEXTSTATE": "Q43",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q44": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q51",
+      "MOVE": "LEFT"
+    },
+    "C": {
+      "WRITE": "C",
+      "NEXTSTATE": "Q45",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q45": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q45",
+      "MOVE": "LEFT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q45",
+      "MOVE": "LEFT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q45",
+      "MOVE": "LEFT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q45",
+      "MOVE": "LEFT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q45",
+      "MOVE": "LEFT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q45",
+      "MOVE": "LEFT"
+    },
+    "#": {
+      "WRITE": "#",
+      "NEXTSTATE": "Q46",
+      "MOVE": "RIGHT"
+    },
+    "D": {
+      "WRITE": "D",
+      "NEXTSTATE": "Q45",
+      "MOVE": "LEFT"
+    },
+    "C": {
+      "WRITE": "C",
+      "NEXTSTATE": "Q45",
+      "MOVE": "LEFT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q45",
+      "MOVE": "LEFT"
+    },
+    "E": {
+      "WRITE": "E",
+      "NEXTSTATE": "Q45",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q46": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q47",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q85",
+      "MOVE": "RIGHT"
+    },
+    "C": {
+      "WRITE": "C",
+      "NEXTSTATE": "Q46",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q46",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q46",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q46",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q46",
+      "MOVE": "RIGHT"
+    },
+    "D": {
+      "WRITE": "D",
+      "NEXTSTATE": "Q46",
+      "MOVE": "RIGHT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q46",
+      "MOVE": "RIGHT"
+    },
+    "E": {
+      "WRITE": "E",
+      "NEXTSTATE": "Q46",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q47": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q49",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q48",
+      "MOVE": "LEFT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q48",
+      "MOVE": "LEFT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q48",
+      "MOVE": "LEFT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q48",
+      "MOVE": "LEFT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q48",
+      "MOVE": "LEFT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q48",
+      "MOVE": "LEFT"
+    },
+    "C": {
+      "WRITE": "C",
+      "NEXTSTATE": "Q48",
+      "MOVE": "LEFT"
+    },
+    "D": {
+      "WRITE": "D",
+      "NEXTSTATE": "Q48",
+      "MOVE": "LEFT"
+    },
+    "E": {
+      "WRITE": "E",
+      "NEXTSTATE": "Q48",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q48": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q46",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q49": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q50",
+      "MOVE": "LEFT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q48",
+      "MOVE": "LEFT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q48",
+      "MOVE": "LEFT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q48",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q50": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q50",
+      "MOVE": "LEFT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q50",
+      "MOVE": "LEFT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q50",
+      "MOVE": "LEFT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q50",
+      "MOVE": "LEFT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q50",
+      "MOVE": "LEFT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q50",
+      "MOVE": "LEFT"
+    },
+    "#": {
+      "WRITE": "#",
+      "NEXTSTATE": "Q43",
+      "MOVE": "RIGHT"
+    },
+    "D": {
+      "WRITE": "D",
+      "NEXTSTATE": "Q50",
+      "MOVE": "LEFT"
+    },
+    "C": {
+      "WRITE": "C",
+      "NEXTSTATE": "Q50",
+      "MOVE": "LEFT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q50",
+      "MOVE": "LEFT"
+    },
+    "E": {
+      "WRITE": "E",
+      "NEXTSTATE": "Q50",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q51": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q51",
+      "MOVE": "LEFT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q51",
+      "MOVE": "LEFT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q51",
+      "MOVE": "LEFT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q51",
+      "MOVE": "LEFT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q51",
+      "MOVE": "LEFT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q51",
+      "MOVE": "LEFT"
+    },
+    "#": {
+      "WRITE": "#",
+      "NEXTSTATE": "Q52",
+      "MOVE": "RIGHT"
+    },
+    "D": {
+      "WRITE": "D",
+      "NEXTSTATE": "Q51",
+      "MOVE": "LEFT"
+    },
+    "C": {
+      "WRITE": "C",
+      "NEXTSTATE": "Q51",
+      "MOVE": "LEFT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q51",
+      "MOVE": "LEFT"
+    },
+    "E": {
+      "WRITE": "E",
+      "NEXTSTATE": "Q51",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q52": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q58",
+      "MOVE": "RIGHT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q53",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q56",
+      "MOVE": "RIGHT"
+    },
+    "C": {
+      "WRITE": "C",
+      "NEXTSTATE": "Q52",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q52",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q52",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q52",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q52",
+      "MOVE": "RIGHT"
+    },
+    "D": {
+      "WRITE": "D",
+      "NEXTSTATE": "Q52",
+      "MOVE": "RIGHT"
+    },
+    "E": {
+      "WRITE": "E",
+      "NEXTSTATE": "Q52",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q53": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q54",
+      "MOVE": "LEFT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q53",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q56",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q54": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q55",
+      "MOVE": "RIGHT"
+    },
+    "#": {
+      "WRITE": "#",
+      "NEXTSTATE": "Q55",
+      "MOVE": "RIGHT"
+    },
+    " ": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q54",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q55": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q52",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q55",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q56": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q57",
+      "MOVE": "LEFT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q54",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q57": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q52",
+      "MOVE": "RIGHT"
+    },
+    " ": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q57",
+      "MOVE": "LEFT"
+    },
+    "#": {
+      "WRITE": "#",
+      "NEXTSTATE": "Q52",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q58": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q60",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q59",
+      "MOVE": "LEFT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q59",
+      "MOVE": "LEFT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q59",
+      "MOVE": "LEFT"
+    },
+    "C": {
+      "WRITE": "C",
+      "NEXTSTATE": "Q59",
+      "MOVE": "LEFT"
+    },
+    "D": {
+      "WRITE": "D",
+      "NEXTSTATE": "Q59",
+      "MOVE": "LEFT"
+    },
+    "E": {
+      "WRITE": "E",
+      "NEXTSTATE": "Q59",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q59": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q52",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q59",
+      "MOVE": "LEFT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q59",
+      "MOVE": "LEFT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q59",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q60": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q61",
+      "MOVE": "LEFT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q59",
+      "MOVE": "LEFT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q59",
+      "MOVE": "LEFT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q59",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q61": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q61",
+      "MOVE": "LEFT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q61",
+      "MOVE": "LEFT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q61",
+      "MOVE": "LEFT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q61",
+      "MOVE": "LEFT"
+    },
+    "C": {
+      "WRITE": "C",
+      "NEXTSTATE": "Q61",
+      "MOVE": "LEFT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q61",
+      "MOVE": "LEFT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q61",
+      "MOVE": "LEFT"
+    },
+    "D": {
+      "WRITE": "D",
+      "NEXTSTATE": "Q61",
+      "MOVE": "LEFT"
+    },
+    "E": {
+      "WRITE": "E",
+      "NEXTSTATE": "Q61",
+      "MOVE": "LEFT"
+    },
+    "#": {
+      "WRITE": "#",
+      "NEXTSTATE": "Q62",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q62": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q62",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q62",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q62",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q62",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q62",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q62",
+      "MOVE": "RIGHT"
+    },
+    "D": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q63",
+      "MOVE": "RIGHT"
+    },
+    "E": {
+      "WRITE": "E",
+      "NEXTSTATE": "Q62",
+      "MOVE": "RIGHT"
+    },
+    "C": {
+      "WRITE": "C",
+      "NEXTSTATE": "Q62",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q63": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q63",
+      "MOVE": "RIGHT"
+    },
+    "E": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q66",
+      "MOVE": "RIGHT"
+    },
+    "D": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q64",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q64": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q64",
+      "MOVE": "RIGHT"
+    },
+    "D": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q65",
+      "MOVE": "RIGHT"
+    },
+    "E": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q69",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q65": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q65",
+      "MOVE": "RIGHT"
+    },
+    "E": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q72",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q66": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q67",
+      "MOVE": "RIGHT"
+    },
+    "E": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q68",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q67": {
+    "0": {
+      "WRITE": "0",
+      "NEXTSTATE": "Q67",
+      "MOVE": "RIGHT"
+    },
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q67",
+      "MOVE": "RIGHT"
+    },
+    "x": {
+      "WRITE": "0",
+      "NEXTSTATE": "Q75",
+      "MOVE": "LEFT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q67",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q67",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q67",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q67",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q67",
+      "MOVE": "RIGHT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q67",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q68": {
+    "0": {
+      "WRITE": "0",
+      "NEXTSTATE": "Q68",
+      "MOVE": "RIGHT"
+    },
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q68",
+      "MOVE": "RIGHT"
+    },
+    "x": {
+      "WRITE": "0",
+      "NEXTSTATE": "Q75",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q68",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q68",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q68",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q68",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q68",
+      "MOVE": "RIGHT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q68",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q69": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q70",
+      "MOVE": "RIGHT"
+    },
+    "E": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q71",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q70": {
+    "0": {
+      "WRITE": "0",
+      "NEXTSTATE": "Q70",
+      "MOVE": "RIGHT"
+    },
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q70",
+      "MOVE": "RIGHT"
+    },
+    "x": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q75",
+      "MOVE": "LEFT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q70",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q70",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q70",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q70",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q70",
+      "MOVE": "RIGHT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q70",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q71": {
+    "0": {
+      "WRITE": "0",
+      "NEXTSTATE": "Q71",
+      "MOVE": "RIGHT"
+    },
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q71",
+      "MOVE": "RIGHT"
+    },
+    "x": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q75",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q71",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q71",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q71",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q71",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q71",
+      "MOVE": "RIGHT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q71",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q72": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q73",
+      "MOVE": "RIGHT"
+    },
+    "E": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q74",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q73": {
+    "0": {
+      "WRITE": "0",
+      "NEXTSTATE": "Q73",
+      "MOVE": "RIGHT"
+    },
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q73",
+      "MOVE": "RIGHT"
+    },
+    "x": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q75",
+      "MOVE": "LEFT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q73",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q73",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q73",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q73",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q73",
+      "MOVE": "RIGHT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q73",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q74": {
+    "0": {
+      "WRITE": "0",
+      "NEXTSTATE": "Q74",
+      "MOVE": "RIGHT"
+    },
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q74",
+      "MOVE": "RIGHT"
+    },
+    "x": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q75",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q74",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q74",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q74",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q74",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q74",
+      "MOVE": "RIGHT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q74",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q75": {
+    "0": {
+      "WRITE": "x",
+      "NEXTSTATE": "Q16",
+      "MOVE": "LEFT"
+    },
+    "1": {
+      "WRITE": "x",
+      "NEXTSTATE": "Q23",
+      "MOVE": "LEFT"
+    },
+    " ": {
+      "WRITE": "x",
+      "NEXTSTATE": "Q31",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q78": {
+    "0": {
+      "WRITE": "0",
+      "NEXTSTATE": "Q78",
+      "MOVE": "LEFT"
+    },
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q78",
+      "MOVE": "LEFT"
+    },
+    "#": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q79",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q78",
+      "MOVE": "LEFT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q78",
+      "MOVE": "LEFT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q78",
+      "MOVE": "LEFT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q78",
+      "MOVE": "LEFT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q78",
+      "MOVE": "LEFT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q78",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q79": {
+    "1": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q80",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q79",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q79",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q79",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q79",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q79",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q80": {
+    "1": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q81",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q79",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q79",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q79",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q81": {
+    "1": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q82",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q79",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q79",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q83": {
+    "0": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q3",
+      "MOVE": "RIGHT"
+    },
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q9",
+      "MOVE": "LEFT"
+    }
+  },
+  "Q84": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q39",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q85": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q47",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q85",
+      "MOVE": "RIGHT"
+    }
+  },
+  "Q86": {
+    "1": {
+      "WRITE": "1",
+      "NEXTSTATE": "Q86",
+      "MOVE": "RIGHT"
+    },
+    "a": {
+      "WRITE": "a",
+      "NEXTSTATE": "Q86",
+      "MOVE": "RIGHT"
+    },
+    "b": {
+      "WRITE": "b",
+      "NEXTSTATE": "Q86",
+      "MOVE": "RIGHT"
+    },
+    "c": {
+      "WRITE": "c",
+      "NEXTSTATE": "Q86",
+      "MOVE": "RIGHT"
+    },
+    "d": {
+      "WRITE": "d",
+      "NEXTSTATE": "Q86",
+      "MOVE": "RIGHT"
+    },
+    "e": {
+      "WRITE": "e",
+      "NEXTSTATE": "Q86",
+      "MOVE": "RIGHT"
+    },
+    " ": {
+      "WRITE": " ",
+      "NEXTSTATE": "Q42",
+      "MOVE": "LEFT"
+    },
+    "x": {
+      "WRITE": "x",
+      "NEXTSTATE": "Q42",
+      "MOVE": "LEFT"
+    }
+  }
+}

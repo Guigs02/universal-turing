@@ -1,0 +1,64 @@
+{
+    "Q0": {
+      "0": {
+        "WRITE": " ",
+        "MOVE": "RIGHT",
+        "NEXTSTATE": "Q1"
+      },
+      " ": {
+        "WRITE": " ",
+        "MOVE": "RIGHT",
+        "NEXTSTATE": "Q4"
+      }
+    },
+    "Q1": {
+      "0": {
+        "WRITE": "0",
+        "MOVE": "RIGHT",
+        "NEXTSTATE": "Q1"
+      },
+      " ": {
+        "WRITE": " ",
+        "MOVE": "LEFT",
+        "NEXTSTATE": "Q2"
+      }
+    },
+    "Q2": {
+      "0": {
+        "WRITE": " ",
+        "MOVE": "LEFT",
+        "NEXTSTATE": "Q3"
+      },
+      " ": {
+        "WRITE": " ",
+        "MOVE": "LEFT",
+        "NEXTSTATE": "Q4"
+      }
+    },
+    "Q3": {
+      "0": {
+        "WRITE": "0",
+        "MOVE": "LEFT",
+        "NEXTSTATE": "Q1"
+      },
+      " ": {
+        "WRITE": " ",
+        "MOVE": "LEFT",
+        "NEXTSTATE": "Q4"
+      }
+    },
+    "Q4": {
+      "0": {
+        "WRITE": " ",
+        "MOVE": "RIGHT",
+        "NEXTSTATE": "Q4"
+      },
+      " ": {
+        "WRITE": " ",
+        "MOVE": "RIGHT",
+        "NEXTSTATE": "QDONE"
+      }
+    },
+    "QDONE": {}
+  }
+  
